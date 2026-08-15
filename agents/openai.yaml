@@ -1,4 +1,4 @@
 interface:
   display_name: "Photo Abstract Editorial"
-  short_description: "Create photo-derived editorial abstractions."
-  default_prompt: "Create a clean photo-and-abstract editorial artwork from this image."
+  short_description: "Create equal-size photo-derived editorial diptychs."
+  default_prompt: "Create a clean photo-and-abstract editorial artwork from this image, preserving the original pixels and using an equally sized abstract panel."

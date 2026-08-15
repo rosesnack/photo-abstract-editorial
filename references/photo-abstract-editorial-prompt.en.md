@@ -6,8 +6,8 @@ Treat the uploaded image strictly as the sole source of content and as the origi
 
 The uploaded image is the sole content source and serves two roles:
 
-1. **Original photograph in the photographic area.** Faithfully present the photograph in the upper or principal region of the finished work. Preserve its subjects, architecture, people, light, colors, spatial relationships, and photographic character. Permit only restrained proportional scaling or a slight crop needed to fit the join. Do not redraw, replace, extend, retouch, embellish, or otherwise change the photo's content.
-2. **Information source for the abstract panel.** Analyze the photo's subject relationships; relative scale; left/right and upper/lower positions; directions; curves; horizontal and vertical axes; spacing; repetition; occlusion; foreground/background hierarchy; tonal hierarchy; color roles; and negative space. Reconstruct these relationships as an abstract visual memory below the photo.
+1. **Original photograph in the photographic area.** Read the photograph's displayed pixel dimensions after honoring EXIF orientation and call them `W × H`. Faithfully present the photo at exactly `W × H` pixels in the upper or left section of the finished work. Do not scale, crop, redraw, replace, extend, retouch, filter, embellish, or otherwise change its visible pixels.
+2. **Information source for the abstract panel.** Analyze the photo's subject relationships; relative scale; left/right and upper/lower positions; directions; curves; horizontal and vertical axes; spacing; repetition; occlusion; foreground/background hierarchy; tonal hierarchy; color roles; and negative space. Reconstruct these relationships as an abstract visual memory adjacent to the photo. The complete abstract panel—including its background, motif, and title—must also be exactly `W × H` pixels.
 
 Do not introduce any other image, scene, object, color, or symbol.
 
@@ -63,19 +63,20 @@ Every mark must correspond to a fact in the source photo. Do not add decorative 
 
 Avoid regularized spacing. Let adjacent marks vary slightly in scale and position, with pauses that create an observed natural rhythm rather than an infographic or vector icon.
 
-## 5. Adaptive joining of photo and abstract panel
+## 5. Equal-size joining of photo and abstract panel
 
-Create one complete vertical editorial work with a photographic area above and an ivory abstract panel below.
+Make the abstract panel exactly the same displayed pixel dimensions as the original photograph. If the original is `W × H` pixels, the complete abstract panel must also be `W × H` pixels. Do not substitute approximate ratios, percentage allocations, or visual estimates for exact pixel equality.
 
-Do not mechanically make the two sections equal in height. Adapt the proportion to the source image's orientation, subject density, visual center of gravity, and negative space:
+If the image generator cannot emit the exact `W × H` dimensions, use the closest supported canvas with the same orientation and keep generous safe margins around the motif and title. Then proportionally fit only the abstract panel and pad it to exactly `W × H` with the same uniform ivory as its background. Never resize or crop the original photo, and never stretch or crop the panel artwork.
 
-- **Landscape images or images with strong horizontal spread:** photo area about 38%–52% of the final height; abstract panel about 48%–62%.
-- **Vertical architecture, people, or tall subjects:** photo area about 55%–68%; abstract panel about 32%–45%.
-- **Near-square images or images with a balanced visual center:** photo area about 48%–58%; abstract panel about 42%–52%.
+Choose the join strictly from the source orientation:
 
-Allow these proportions to shift by about 8% when needed; overall harmony takes precedence. Preserve the photograph's aspect ratio and prioritize a complete subject. Never crop aggressively to force a ratio. Let the final canvas ratio follow the source photo and panel height; do not force 1:1, 3:4, or equal halves.
+- When `W > H` (landscape), place the original photo above the abstract panel. The final artwork must be exactly `W × 2H` pixels.
+- When `W <= H` (portrait or square), place the original photo left of the abstract panel. The final artwork must be exactly `2W × H` pixels. A square photo follows this rule.
 
-Join the photo and panel directly and cleanly with no shadow. Do not use torn-paper edges, frames, drop shadows, dimensional cards, tape, collage shadows, or mockup effects.
+The two sections therefore occupy equal halves of the finished artwork. Join them directly, cleanly, and without a gap or shadow. Do not use torn-paper edges, frames, drop shadows, dimensional cards, tape, collage shadows, or mockup effects.
+
+After saving, inspect the file metadata. The panel must be `W × H`; a landscape source must produce `W × 2H`; a portrait or square source must produce `2W × H`. Do not deliver an output that fails this validation.
 
 ## 6. Abstract panel layout
 
@@ -164,7 +165,7 @@ Abstract marks may have slightly natural edges and handmade irregularity, but ne
 
 ## 11. Output limits
 
-Output only one finished work joining the photograph and abstract panel.
+Output only one finished work joining the photograph and abstract panel. Deliver a lossless PNG to avoid recompressing the photo area, and complete the pixel-dimension validation in Section 5 before delivery.
 
 Apart from the final main title and optional subtitle, include absolutely no text, numbers, dates, serial numbers, location descriptions, color swatches, legends, signatures, logos, or watermarks.
 

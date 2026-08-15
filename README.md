@@ -8,7 +8,7 @@ douyin: 12919593  xiaohongshu: Cclz_9
 
 # Photo Abstract Editorial
 
-将一张照片转化为“原始摄影区域 + 抽象记忆面板 + 诗意英文标题”的竖向编辑作品的 Codex Skill。它保留照片的真实内容，并仅从照片本身提炼空间关系、构图节奏和色彩关系；它不是滤镜、照片重画或风格迁移。
+将一张照片转化为“原始摄影区域 + 等尺寸抽象记忆面板 + 诗意英文标题”的编辑作品的 Codex Skill。它保留照片的原始像素尺寸，并仅从照片本身提炼空间关系、构图节奏和色彩关系；它不是滤镜、照片重画或风格迁移。
 
 The skill includes the complete prompt in both Chinese and English.
 
@@ -44,7 +44,7 @@ The skill includes the complete prompt in both Chinese and English.
 
    > 使用 `photo-abstract-editorial` 将这张照片制作成摄影与抽象面板组合的编辑作品。
 
-4. Skill 会将原图保留在成品的上方或主要区域，并在下方创建由原图关系推导出的极简抽象面板。成品中只保留一个原创英文标题（可选副标题）。
+4. Skill 会创建一张与原图像素尺寸完全相同的极简抽象面板。横向原图放在面板上方；纵向或正方形原图放在面板左方。成品中只保留一个原创英文标题（可选副标题）。
 
 也可以直接打开下列文件，并将其作为图像生成提示词使用：
 
@@ -55,7 +55,7 @@ The skill includes the complete prompt in both Chinese and English.
 
 这套提示词应当被视为高质量起点，而不是不可变的版式规范。请按自己的审美和项目需求修改以下参数：
 
-- **照片与面板的比例**：可调整摄影区域和抽象面板的高度占比、画布比例，以及抽象母题的大小与留白。
+- **抽象母题的版式**：可调整抽象母题的大小与留白，但不得改变原图与抽象面板一比一等尺寸的规则，也不得改变由原图方向决定的拼接位置。
 - **颜色**：可修改象牙色面板背景、照片提取色的饱和度、主色与强调色的数量和倾向。
 - **抽象形式**：可选择或混合色块、柔和有机质量、弧形笔触、短条、层叠色带、简化建筑质量、细线、点状标记等形式。
 - **版式与文字**：可调整母题位置、标题位置、字体气质、标题长度和是否使用副标题。
@@ -72,6 +72,7 @@ The skill includes the complete prompt in both Chinese and English.
 photo-abstract-editorial/
 ├── SKILL.md                         # Skill 工作流程与约束
 ├── agents/openai.yaml               # Codex 界面元数据
+├── scripts/compose_editorial.py      # 等尺寸校正、拼接与像素验证
 ├── references/
 │   ├── photo-abstract-editorial-prompt.zh-CN.md
 │   └── photo-abstract-editorial-prompt.en.md
