@@ -4,13 +4,13 @@
 
 ## 二次修改说明
 
-本仓库是在原作者 [**ZzzLc0405**](https://github.com/ZzzLc0405) 的 [photo-abstract-editorial](https://github.com/ZzzLc0405/photo-abstract-editorial) 项目基础上进行的二次修改。原项目的创意、提示词体系、原始示例图片及相关版权声明均归原作者所有。
+本仓库是在原作者 [**ZzzLc0405**](https://github.com/ZzzLc0405) 的 [photo-abstract-editorial](https://github.com/ZzzLc0405/photo-abstract-editorial) 项目基础上进行的二次修改。原项目的创意、提示词体系、示例图片及相关版权声明均归原作者所有。
 
 本次修改主要为了更好地适配竖版照片：抽象面板与原图保持完全相同的像素尺寸；横向照片采用上下拼接，竖向及正方形照片采用左右拼接。这样可以完整保留竖版原图，避免为了固定的纵向成品比例而缩放或裁切照片。
 
 ## 示例作品
 
-### 本修改版新增示例
+### 竖版照片示例
 
 <p align="center">
   <img src="./assets/examples/case-4.png" width="48%" alt="Case 4">
@@ -20,7 +20,7 @@
   <img src="./assets/examples/case-7.png" width="48%" alt="Case 7">
 </p>
 
-### 原项目保留示例
+### 横板照片示例
 
 <p align="center">
   <img src="./assets/examples/case-1.jpg" width="32%" alt="Case 1">

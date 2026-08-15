@@ -84,22 +84,23 @@ Use a completely even, continuous, unbroken neutral ivory background for the pan
 
 **#F3F0E8**, or a harmonious color from the same family.
 
-Place the abstract motif in the lower-middle of the panel, near the center, or at an asymmetrical position supported by relationships in the original photo.
+Place the abstract motif in the central field, lower-middle, or at an asymmetrical position supported by relationships in the original photo. Use the works in [assets/examples](../assets/examples) as scale calibration: the motif should read as a medium-to-large composition with visual authority, not as a small icon floating in excessive blank space.
 
-Default scale:
+Measure the following percentages from the overall bounding extent of all abstract marks, excluding the title and subtitle:
 
-- Motif width: about 30%–42% of panel width.
-- Motif height: normally no more than 28%–34% of panel height.
-- Keep about 65%–80% clean white space.
+- For a landscape panel placed below the photo, the motif should normally span 58%–82% of panel width and 40%–58% of panel height.
+- For a portrait or square panel placed to the right of the photo, the motif should normally span 70%–88% of panel width and 50%–72% of panel height.
+- Keep about 7%–12% safe distance from panel edges and a clearly visible gap between the motif and title.
+- The motif may have a large bounding extent while its actual ink coverage remains restrained. Preserve about 65%–80% visible ivory through internal gaps, broken marks, open overlaps, and irregular edges; do not create whitespace merely by shrinking the whole motif.
 
 Adapt by subject type:
 
-- Slender horizons, bridges, roads, or horizontal crowds may reach 45%–68% of the panel width while remaining low.
-- Landmark high-rise buildings, towers, or vertical subjects may become taller but must not fill the panel.
-- Compact organic groups must stay gathered rather than scattering across the panel.
-- Do not shrink the motif into a generic small icon merely to satisfy a percentage.
+- Horizons, shores, roads, city skylines, and horizontal crowds should favor the upper end of the range, spreading across 72%–88% of panel width while remaining relatively low.
+- High-rise buildings, trees, wave crests, diagonal roads, and other vertical or diagonal structures may reach 58%–75% of panel height, but must not touch the edges or crowd the title.
+- Only when the source subject is genuinely compact and isolated may the motif shrink to about 50%–65% of panel width and 35%–50% of panel height; do not use this smaller scale by default.
+- Keep compact organic groups gathered, but give the group enough overall visual weight that it does not collapse into a generic small icon.
 
-Keep its internal scale relationships, directions, intervals, occlusion, repetition, center of gravity, and asymmetry as one whole.
+Preserve internal scale relationships, directions, intervals, occlusion, repetition, center of gravity, and asymmetry as one whole. Prioritize the medium-to-large scale and visual weight shown by the reference images; use the percentages only to prevent undersizing or overflow, not as a mechanical template.
 
 ## 7. Color system
 
