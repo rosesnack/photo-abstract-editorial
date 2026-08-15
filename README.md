@@ -8,10 +8,6 @@
 
 本次修改主要为了更好地适配竖版照片：抽象面板与原图保持完全相同的像素尺寸；横向照片采用上下拼接，竖向及正方形照片采用左右拼接。这样可以完整保留竖版原图，避免为了固定的纵向成品比例而缩放或裁切照片。
 
-This repository is a modified version of the original [photo-abstract-editorial](https://github.com/ZzzLc0405/photo-abstract-editorial) project by [**ZzzLc0405**](https://github.com/ZzzLc0405). The changes focus on portrait-photo compatibility through equal-size panels and orientation-aware joining, while preserving the original photograph without scaling or cropping.
-
-The skill includes the complete prompt in both Chinese and English.
-
 ## 示例作品
 
 ### 本修改版新增示例
@@ -76,8 +72,3 @@ photo-abstract-editorial/
 ```
 
 `assets/examples` 中的图片仅用于理解预期输入类型；除非用户上传该图片本身，否则不要将其中的主题、色彩或构图复用于新的作品。
-支持原作者，请原作者喝杯咖啡（token）
-<p align="center">
-  <img src="./pay/AliPay.jpg" width="32%">
-  <img src="./pay/WechatPay.jpg" width="32%">
-</p>
