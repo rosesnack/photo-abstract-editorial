@@ -1,18 +1,18 @@
-## 声明
-Free for personal, educational and non-commercial use. Commercial use requires prior authorization. If you build something with these Skills, attribution and @AM. are greatly appreciated.
-
-商业授权已不被允许，请不要私自商用，谢谢！
-douyin: 12919593  xiaohongshu: Cclz_9
-
-在这里吐槽一下，真的很无语这几天，被人抄袭，甚至有人拿这个东西去卖，我真的无语！
-
 # Photo Abstract Editorial
 
 将一张照片转化为“原始摄影区域 + 等尺寸抽象记忆面板 + 诗意英文标题”的编辑作品的 Codex Skill。它保留照片的原始像素尺寸，并仅从照片本身提炼空间关系、构图节奏和色彩关系；它不是滤镜、照片重画或风格迁移。
 
+## 二次修改说明
+
+本仓库是在原作者 [**ZzzLc0405**](https://github.com/ZzzLc0405) 的 [photo-abstract-editorial](https://github.com/ZzzLc0405/photo-abstract-editorial) 项目基础上进行的二次修改。原始创意、提示词体系、示例图片及相关版权声明均归原作者所有。
+
+本次修改主要为了更好地适配竖版照片：抽象面板与原图保持完全相同的像素尺寸；横向照片采用上下拼接，竖向及正方形照片采用左右拼接。这样可以完整保留竖版原图，避免为了固定的纵向成品比例而缩放或裁切照片。
+
+This repository is a modified version of the original [photo-abstract-editorial](https://github.com/ZzzLc0405/photo-abstract-editorial) project by [**ZzzLc0405**](https://github.com/ZzzLc0405). The changes focus on portrait-photo compatibility through equal-size panels and orientation-aware joining, while preserving the original photograph without scaling or cropping.
+
 The skill includes the complete prompt in both Chinese and English.
 
-## 示例图片（原图均为本人拍摄）
+## 原作者示例图片（原图均由原作者拍摄）
 
 <!-- <table>
   <tr>
@@ -80,7 +80,7 @@ photo-abstract-editorial/
 ```
 
 `assets/examples` 中的图片仅用于理解预期输入类型；除非用户上传该图片本身，否则不要将其中的主题、色彩或构图复用于新的作品。
-请作者喝杯咖啡（token）
+支持原作者，请原作者喝杯咖啡（token）
 <p align="center">
   <img src="./pay/AliPay.jpg" width="32%">
   <img src="./pay/WechatPay.jpg" width="32%">
